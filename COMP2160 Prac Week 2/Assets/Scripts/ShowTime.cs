@@ -12,6 +12,6 @@ public class ShowTime : MonoBehaviour
     void Update()
     {
         Debug.Log("time = " + Time.time);
-        Debug.Log("deltaTime = " + Time.detlaTime);
+        Debug.Log("deltaTime = " + Time.deltaTime);
     }
 }
